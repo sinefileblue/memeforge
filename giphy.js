@@ -7,11 +7,12 @@ function renderGifs(response) {
 
     for (let meme of response.data) {
         result += `
-            <img src=${meme.images.original.url}" alt ="${meme.alt_text}" />
+            <img src=${meme.images.original.url}" alt ="${meme.alt_text}"
+            class="meme-img" />
             `;
     }
 
-    document.querySelector("js.memes-container").innerHTML = result;
+    document.querySelector(".js-memes-container").innerHTML = result;
 }
 
 
@@ -22,7 +23,7 @@ function getMemes(searchExpression,memeCount) {
     )
         .then((data) => data.json())
         .then(renderGifs);
-        .catch (() => renderError("Error retrieving data."));
+        .catch(() => renderError("Error retrieving data."));
 
 }
 
