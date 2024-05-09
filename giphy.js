@@ -16,12 +16,13 @@ function renderGifs(response) {
 
 
 
-function getMemes(searchExpression) {
+function getMemes(searchExpression,memeCount) {
     fetch(
-        `${API_PREFIX}${API_KEY}&q=${searchExpression}&limit=25&${API_SETTINGS}`
+        `${API_PREFIX}${API_KEY}&q=${searchExpression}&limit=${memeCount}${API_SETTINGS}`
     )
         .then((data) => data.json())
         .then(renderGifs);
+        .catch (() => renderError("Error retrieving data."));
 
 }
 
