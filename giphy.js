@@ -15,7 +15,11 @@ function renderGifs(response) {
     document.querySelector(".js-memes-container").innerHTML = result;
 }
 
-
+function renderError(message) {
+    document.querySelector(".js-memes-container").innerHTML = `
+    <div class="alert alert-danger error-container">${message}<div/>
+    `;
+}
 
 function getMemes(searchExpression,memeCount) {
     fetch(
@@ -23,7 +27,7 @@ function getMemes(searchExpression,memeCount) {
     )
         .then((data) => data.json())
         .then(renderGifs);
-        .catch(() => renderError("Error retrieving data."));
+
 
 }
 
