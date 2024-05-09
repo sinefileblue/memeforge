@@ -4,7 +4,8 @@ Hosting link:
 
 ## User stories
 
-// lorem ipsum dolor sit amet
+AS A media consumer
+I WANT TO search for GIFs on Giphy so that I can quickly find popular content to enjoy.
 
 ## Wireframe
 
