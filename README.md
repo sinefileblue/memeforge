@@ -1,6 +1,10 @@
 # Giphy API
 
-Hosting link:
+//  Developed by Peyton Hickman in May 2024.
+    Powered by GIPHY API.
+
+Hosting link: https://github.com/sinefileblue/special-meme 
+
 
 ## User stories
 
@@ -12,17 +16,3 @@ I WANT TO be sure the website is easy to navigate and user-friendly, with clear 
 
 AS A busy person
 I WANT TO be able to apply filters and sorting options to narrow down the number of memes returned from the search results.
-
-
-
-
-
-
-
-
-
-## Wireframe
-
-// lorem ipsum dolor sit amet
-
-, 
