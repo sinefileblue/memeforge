@@ -11,3 +11,4 @@ I WANT TO search for GIFs on Giphy so that I can quickly find popular content to
 
 // lorem ipsum dolor sit amet
 
+, 
