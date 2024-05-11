@@ -1,7 +1,6 @@
 # Giphy API
 
-Hosting link: https://github.com/sinefileblue/special-meme 
-
+Hosting link: https://sinefileblue.github.io/special-meme 
 
 Developed by Peyton Hickman in May 2024
 Powered by GIPHY API
